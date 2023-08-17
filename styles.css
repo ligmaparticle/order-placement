@@ -1,0 +1,163 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+    height: 670px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+.image {
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    width: 425px;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 1.3em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 0px;
+    color: hsl(224, 23%, 55%);
+}
+
+.details {
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    width: 350px;
+    height: 90px;
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+h2 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.price {
+    margin: 0px;
+    font-size: 16px;
+}
+
+div {
+    margin-left: 20px;
+    margin-right: 90px;
+    text-align: start;
+    border: none;
+    font-size: 0.9em;
+    line-height: 28px;
+}
+
+.music-icon {
+    width: 3rem;
+    margin-left: -30px;
+}
+
+footer {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+button {
+    font-size: 1em;
+    font-family: 'Red Hat Display', sans-serif;
+    border: none;
+}
+
+.proceed {
+    padding: 15px 102.5px 15px 102.5px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 20px 20px rgb(210, 219, 255);
+    cursor: pointer;
+}
+
+.proceed:hover {
+    opacity: 0.7;
+}
+
+.cancel {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+a {
+    margin-right: -30px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+@media (max-width: 428px) {
+    main {
+        width: 325px;
+        height: 620px;
+    }
+
+    .image {
+        width: 325px;
+    }
+
+    .main-text {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .details {
+        width: 300px;
+    }
+
+    a {
+        margin-left: -40px;
+    }
+
+    .proceed {
+        padding: 15px 70px 15px 70px;
+    }
+}
